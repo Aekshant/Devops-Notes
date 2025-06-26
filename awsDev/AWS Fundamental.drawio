@@ -1,0 +1,147 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6" pages="2">
+  <diagram name="Base" id="vjJFwIeug1iZqRmjQmJM">
+    <mxGraphModel dx="1665" dy="743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="330" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-2" value="Region" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="63" y="141" width="56" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="88" y="202" width="287" height="287" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-4" value="VPC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="173" width="43" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="105" y="242" width="236" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-6" value="AZ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="211" width="33" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="124" y="282" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-8" value="Public Subnet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="122" y="313" width="92" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="379" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-10" value="Private Subnet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="224" y="413" width="97" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4hZw_1Td1rZY4-D2AG_E-11" target="4hZw_1Td1rZY4-D2AG_E-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-11" value="Local Zones" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="461" y="188" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-12" value="Local Zones" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="463" y="305.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.003;exitY=0.53;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4hZw_1Td1rZY4-D2AG_E-1" target="4hZw_1Td1rZY4-D2AG_E-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="364" as="sourcePoint" />
+            <mxPoint x="450" y="314" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4hZw_1Td1rZY4-D2AG_E-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="228" as="sourcePoint" />
+            <mxPoint x="450" y="178" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-15" value="Local Zones are extention of aws Region&lt;div&gt;a. Local Zones allow to place services&lt;/div&gt;&lt;div&gt;&amp;nbsp;near end-users&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="592" y="200.5" width="235" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.003;exitY=0.53;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="401" y="443" as="sourcePoint" />
+            <mxPoint x="463" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4hZw_1Td1rZY4-D2AG_E-18" target="4hZw_1Td1rZY4-D2AG_E-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-18" value="Edge&amp;nbsp;&lt;div&gt;Location&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="461" y="404" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-19" value="Edge Location supports services&lt;div&gt;&amp;nbsp;like cloudFront, route53, AWS WAF&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="623" y="423.5" width="209" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-22" value="AWS Access" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="768" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4hZw_1Td1rZY4-D2AG_E-23" target="4hZw_1Td1rZY4-D2AG_E-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-23" value="UI WEB APP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="255" y="768" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4hZw_1Td1rZY4-D2AG_E-25" target="4hZw_1Td1rZY4-D2AG_E-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-25" value="AWS CLI" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="884" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4hZw_1Td1rZY4-D2AG_E-27" target="4hZw_1Td1rZY4-D2AG_E-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4hZw_1Td1rZY4-D2AG_E-27" value="AWS SDK" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="515" y="768" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rcq1nVg9ugXwE1U5UhsU" name="VPC">
+    <mxGraphModel dx="1665" dy="743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aAt6kjtfCRqdnLwSskfU-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="48" y="105" width="233" height="233" as="geometry" />
+        </mxCell>
+        <mxCell id="aAt6kjtfCRqdnLwSskfU-2" value="VPC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="48" y="73" width="43" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="aAt6kjtfCRqdnLwSskfU-3" value="Subnets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="124" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aAt6kjtfCRqdnLwSskfU-5" value="Routing Tables" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="175" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aAt6kjtfCRqdnLwSskfU-6" value="Firewalls" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="232" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aAt6kjtfCRqdnLwSskfU-7" value="Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="289" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aAt6kjtfCRqdnLwSskfU-8" value="1. VPC has a range of IP addresses to it called the CIDR block&lt;div&gt;2. CIDR block size can be anywhere from /16 to /28&lt;/div&gt;&lt;div&gt;3. Suppose we create a VPC wiith CIDR 192.168.0.0/16&lt;div&gt;i.e. we have a IP range from 192.168.0.0 -- 192.168.255.255&lt;/div&gt;&lt;/div&gt;&lt;div&gt;4. VPC Isolates computing resources from other&amp;nbsp;&lt;/div&gt;&lt;div&gt;computing resources available in cloud&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="411" y="76" width="351" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="OAqx_-BDzPpjmapt43DE-1" value="Route 53" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="97" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OAqx_-BDzPpjmapt43DE-2" value="AWS Managed DNS Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="196" y="453" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lzV9Ri6iOApbfyQUq7PA-1" value="CloudFormation" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="119" y="603" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="lzV9Ri6iOApbfyQUq7PA-2" value="Used for AWS Infra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="249" y="603" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lzV9Ri6iOApbfyQUq7PA-3" value="Stack is a Collection of aws resources" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="249" y="643" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lzV9Ri6iOApbfyQUq7PA-4" value="Stack Policy Provides additional layer&lt;div&gt;&amp;nbsp;of protection to critical resources&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250.5" y="683" width="217" height="41" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
